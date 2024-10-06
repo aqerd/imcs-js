@@ -1,0 +1,9 @@
+input 100
+set 101 1
+set 102 1
+equ 100 101 103
+jz 103 25
+mul 102 100 102
+sub 100 101 100
+jump 8
+output 102

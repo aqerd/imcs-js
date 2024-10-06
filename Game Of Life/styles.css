@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'UberMove';
+    src: url(C:\Users\21954\AppData\Local\Microsoft\Windows\Fonts);
+}
+
+body {
+    background-color: #034b42;
+    font-family: 'UberMove';
+    /*overflow: hidden;*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+table {
+    background-color: #222222;
+    padding: 20px;
+    border-spacing: 0;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+td {
+    border: 1px solid #00b39b;
+    border-radius: 0px;
+    width: 10px;
+    height: 10px;
+    cursor: crosshair;
+}
+
+span {
+    color: #000000;
+    font-family: 'UberMove';
+}
+
+#start,
+#clear,
+#random {
+    font-family: 'UberMove';
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 100px;
+    border-color: #00F5D3;
+    background: #00F5D3;
+    color: #000000;
+    cursor: pointer;
+}
+
+td.dead {
+    background-color: #222222;
+}
+
+td.live {
+    background-color: #00F5D3;
+    border-radius: 0px;
+}

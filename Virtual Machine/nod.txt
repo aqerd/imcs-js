@@ -1,0 +1,11 @@
+input 100
+input 101
+equ 100 101 102
+jz 102 30
+grt 100 101 103
+jnz 103 24
+sub 100 101 100
+jump 4
+sub 101 100 101
+jump 4
+output 100
